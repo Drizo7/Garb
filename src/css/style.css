@@ -1,0 +1,270 @@
+/* Some Cool Fonts */
+@font-face{
+	src: url("../fonts/KIN668.TTF") format("woff2");
+	font-family: "Aclonica";
+}
+@font-face{
+	src: url("../fonts/AdventPro-ExtraLight.ttf") format("woff2");
+	font-family: "Advent";
+}
+@font-face{
+	src: url("../fonts/Comfortaa-Light.ttf") format("woff2");
+	font-family: "Comfortaa";
+}
+
+/* ------------------------------------------------  Body ------------------------------------------------ */
+body{
+	font-family: arial,helvetica;
+    overflow-x: hidden;
+    vertical-align: middle;
+    background-color: black;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+/* ------------------------------------------------  Section ------------------------------------------------ */
+.section{
+    text-align:center;
+    text-align: -webkit-center;
+    background-size: cover;
+}
+
+/* ------------------------------------------------  Nav Dots ------------------------------------------------ */
+span {
+    background-color: black;
+}
+
+ 
+/* ------------------------------------------------  Section 0 ------------------------------------------------ */
+#section0{
+    
+    background: white!important;
+}
+.helloheading{
+	font-family: "Advent";
+	font-size: 40px;
+    margin: 1%;
+    background: white!important;
+}
+.nameheading{
+	position:relative;
+	font-family: "Aclonica";
+	font-size: 80px;
+	opacity: 0;
+	bottom: -20%;
+    transition: all 1s ease;
+    background: white!important;
+}
+
+
+/* ------------------------------------------------  Section 1 ------------------------------------------------ */
+
+#section1{
+    background-image: url("../imgs/man-walking-in-snow.jpg");
+    background-position: 50% 50%;
+    color:rgb(233, 128, 58) !important;
+}
+.col{
+    width: 50%;
+    
+}
+.skills-heading{
+	font-family: "Aclonica";
+	font-size: 80px;
+	padding-bottom: 5%;
+}
+.skills-icons{
+	opacity: 0;
+	transition: all 1s ease;
+	padding-left:8%;
+	padding-right: 8%;
+	bottom: -30%;
+	position:relative;
+}
+.img-fluid{
+width: 60%;
+}
+.webimage{
+	margin-right: 50%;
+}
+.iotimage{
+	margin-left: 30%;
+}
+#section1 .row{
+	font-family: "Comfortaa";
+	font-size: 15px;
+}
+.skills-para{
+    padding-top: 0.3%;
+}
+
+/* ------------------------------------------------  Section 2 ------------------------------------------------ */
+#section2{
+    background-image: url("../imgs/beautiful-snow-mountain.jpg");
+    background-position: 50% 50%;
+}
+#section2 img{
+    height: 500px;
+    vertical-align: middle;
+}
+.responsive-texts, .responsive-slide-img{
+    transition: all 1s ease;
+}
+
+#section2 h1{
+    font-family: "Aclonica";
+    font-size: 60px;
+}
+#section2 p{
+    padding: 1%;
+    padding-top: 1%;
+}
+#section2 button{
+    background: linear-gradient(to right, DodgerBlue 50%, rgb(0, 196, 0) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+#section2 button:hover{
+    background-position: left bottom;
+}
+/* Section Contact Us  */
+#contact-section{
+    background: #FFFFFF;
+    color:rgb(233, 128, 58) !important;
+    background-position: 80% 80%;
+    position: relative;
+}
+#contact-section h1{
+    font-family: "Aclonica";
+    font-size: 80px;
+    position: absolute;
+    left: 32%;
+    top:10%;
+
+}
+
+.social-media{
+    position: absolute;
+    opacity: 0;
+    bottom: 30px;
+    right: 45%;
+    transition: all 1s ease;
+}
+#contact-section .social-media a{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+#contact-section .contact-info{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#contact-section .contact-info a{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: right !important;
+    padding-right: 25px;
+}
+#contact-section form{
+    text-align: center !important;
+    margin: 25%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(0, 0, 0) !important;
+    opacity: 0;
+    transition: all 1s ease;
+}
+#contact-section form input, #contact-section form textarea{
+    margin:10px;
+    background: none;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-bottom: rgb(0, 0, 0) 1px solid;
+    outline: none !important;
+}
+#contact-section form input:focus,#contact-section form textarea:focus,#contact-section form input:valid,#contact-section form textarea:valid{
+    color: rgb(0, 0, 0) !important;
+    background: none;
+    border:none;
+    outline: none !important;
+    outline-width: 0 !important;
+    -webkit-appearance: none !important;
+    border-bottom: rgb(0, 0, 0) 1px solid;
+}
+#contact-section form button{
+    background: none;
+    color: black !important;
+    border: 1px rgb(0, 0, 0) solid;
+}
+
+input:invalid {
+    border-bottom: 2px solid red !important;
+}
+
+/*   Responsive Design  */
+@media only screen and (max-width: 1500px) {
+        .skills-para{
+            font-size: 15px;
+        }
+        #section2 img{
+            height: 200px;
+            vertical-align: middle;
+        }
+        #section2 h1{
+            font-size: 30px;
+            padding-right: 15%;
+        }
+        #section2 p{
+            font-size: 15px;
+            padding-right: 15%;
+        }
+        #section2 button{
+            margin:auto;
+        }
+        #contact-section h1{
+            font-size: 40px;
+        }
+        #contact-section i{
+            font-size: 40px;
+        }
+        #contact-section{
+            background-color: #FFFFFF;
+            background-position: 85%;
+        }
+
+        .social-media{
+            position: absolute;
+            opacity: 0;
+            bottom: 30px;
+            right: 45%;
+            transition: all 1s ease;
+          }
+  }
+
+  /* Loading GIF */
+
+  #loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url("../gif/12.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  *{
+    cursor: url('../cursor.cur'), default;
+    }
