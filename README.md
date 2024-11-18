@@ -53,10 +53,6 @@ GarbApp is a comprehensive waste management solution that connects residents wit
   - Interactive onboarding
   - Responsive layouts
 
-## Screenshots 📸
-
-[Screenshots to be added]
-
 ## Technologies Used 🛠️
 
 - **Development**
@@ -83,8 +79,7 @@ GarbApp is a comprehensive waste management solution that connects residents wit
 1. Download from Google Play Store:
    [Garb - Waste Management](https://play.google.com/store/apps/details?id=com.adz.garb&hl=en)
 
-For developers:
-   Contact me - @drizzomand@gmail.com
+For developers: drizzomand@gmail.com
 
 ## Usage 📱
 
@@ -105,10 +100,6 @@ For developers:
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Privacy Policy 🔒
-
-For information about how we handle your data, please visit our [Privacy Policy](link-to-privacy-policy).
 
 ## Support 🆘
 
